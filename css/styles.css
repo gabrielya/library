@@ -1,0 +1,64 @@
+html {
+  background: rgb(255, 230, 0);
+  position: relative;
+}
+
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+  max-width: 500px;
+}
+
+.entry-box {
+  border: 1px solid black;
+  text-align: justify;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "Epilogue", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 210px;
+  left: 0;
+  max-height: 2000px;
+  text-align: center;
+  margin: 30px;
+}
+
+#boolRead {
+  cursor: pointer;
+}
+
+.submit-button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card {
+  background: rgb(138, 178, 253);
+  min-width: 200px;
+  height: 160px;
+  list-style: none;
+  margin: 10px;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-family: "Epilogue", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px 1px rgba(224, 24, 208, 0.38);
+  transition: all 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
